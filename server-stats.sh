@@ -22,6 +22,10 @@ read Filesystem DiskTotal DiskUsed DiskAvail DiskUsePercent Mounted <<<$(df / | 
 DiskUsageData=$((100 * DiskUsed / DiskTotal))
 DiskAvailData=$((100 * DiskAvail / DiskTotal))
 
+#CPU process data
+
+
+
 echo ">>> CPU"
 echo "Total CPU usage: $CpuData%"
 echo " "
